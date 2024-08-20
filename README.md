@@ -13,3 +13,5 @@
 custom_synthesize.py合成一个文章
 
 synthesize.py合成一个句子
+
+只能合成中文语音
