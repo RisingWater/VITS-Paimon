@@ -150,6 +150,7 @@ Java 爱好者     http://www.javafan.net 制作
  
 图 3.10  用例、协作及场景之间的关系 
 '''
+text+='本节结束，下节再见'
 final_filename='3.6测试用例_3.7实现用例_3.8本章小结'
 
 length_scale=1.0
