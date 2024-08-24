@@ -175,7 +175,7 @@ for i,sentence in enumerate(sentences):
 			continue
 	count+=len(sentence)
 	print(f'processing {sentence}')
-	filename=f'{sentence[:10]}_{time.strftime("%y%m%d%H%M%S")}'.replace(' ','_').replace('(','_').replace(')','_').replace('<','_').replace('>','_').replace(':','_')
+	filename=re.sub(r'[\s()<>:\'"]','_',f'{sentence[:10]}_{time.strftime("%y%m%d%H%M%S")}')
 	audio_path=f'synthesizes/{filename}.wav'
 	stn_tst=get_text(sentence,hps)
 	with torch.no_grad():
