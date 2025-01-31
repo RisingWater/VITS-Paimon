@@ -1,7 +1,6 @@
-
-以下是一个针对你项目的 `README.md` 示例，其中包含了安装 CUDA Toolkit 等安装步骤，你可以根据实际情况进行修改和完善。
-
 # VITS - Paimon 项目使用说明
+
+![](IMG_9368.PNG)
 
 ## 项目概述
 原始项目：https://github.com/AlexandaJerry/vits-mandarin-biaobei
@@ -29,6 +28,9 @@ pip install -r requirements.txt
 ```bash
 python setup.py build_ext --inplace
 ```
+
+### 4. 拷贝模型
+将[模型G_1434000.pth](https://zenodo.org/records/13347529)拷贝到项目目录中
 
 ## 使用方法
 
